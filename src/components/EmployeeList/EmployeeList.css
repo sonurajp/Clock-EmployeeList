@@ -1,0 +1,45 @@
+.employee-list {
+  margin: 20px;
+  max-width: 30rem;
+  width: 100%;
+  border-left: 2px solid #ddd;
+  padding: 1rem;
+  .heading {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .employee-details {
+    flex-grow: 1;
+  }
+
+  .employee-name {
+    font-weight: bold;
+  }
+
+  .employee-id {
+    color: #777;
+  }
+
+  .employee-piv {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
